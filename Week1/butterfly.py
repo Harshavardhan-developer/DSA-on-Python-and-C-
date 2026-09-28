@@ -13,3 +13,16 @@ for i in range(n - 1, 0, -1):
     spaces = "  " * (n - i)
 
     print(star + spaces + spaces + star)
+    
+
+# Output:
+
+# *                 * 
+# * *             * * 
+# * * *         * * * 
+# * * * *     * * * * 
+# * * * * * * * * * * 
+# * * * *     * * * * 
+# * * *         * * * 
+# * *             * * 
+# *                 * 

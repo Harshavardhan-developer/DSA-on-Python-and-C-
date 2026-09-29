@@ -2,20 +2,20 @@
 using namespace std;
 
 int main() {
-    // Write Your Code here...
-    int a;
-    int b;
-    cin >> a >> b;
+    string c;
+    string s;
 
-    cout << a + b;
+    cin >> c >> s;
+
+    cout << c << s << c;
 
     return 0;
 }
 
 /*
 Input:
-10 20
+A B
 
 Output:
-30
+ABA
 */

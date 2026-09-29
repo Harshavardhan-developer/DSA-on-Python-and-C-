@@ -2,48 +2,26 @@
 using namespace std;
 
 int main() {
-	// your code goes here
-	
-int month;
-cin >> month;
 
-switch (month){
-    case 1:
-        cout << "Jan";
-        break;
-    case 2:
-        cout << "Feb";
-        break;
-    case 3:
-        cout << "Mar";
-        break;
-    case 4:
-        cout << "Apr";
-        break;
-    case 5:
-        cout << "May";
-        break;
-    case 6:
-        cout << "Jun";
-        break;
-    case 7:
-        cout << "Jul";
-        break;
-    case 8:
-        cout << "Aug";
-        break;
-    case 9:
-        cout << "Sep";
-        break;
-    case 10:
-        cout << "Oct";
-        break;
-    case 11:
-        cout << "Nov";
-        break;
-    case 12:
-        cout << "Dec";
-        break;
+    int a = 105;
+
+    cin >> a;
+
+    if (a >= 100) {
+        cout << "Century";
+    } else if (a >= 50 and a < 100) {
+        cout << "Half Century";
+    } else {
+        cout << "Not a Century";
+    }
+
+    return 0;
 }
 
-}
+/*
+Input:
+105
+
+Output:
+Century
+*/

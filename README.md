@@ -65,9 +65,9 @@ My personal DSA practice repository. Every problem is solved in **C++** and/or *
 
 | # | Topic | Category | Status |
 | - | ----- | -------- | ------ |
-| 1 | Importance of Data Structures & Algorithms | 🧱 Foundations | ⬜ |
+| 1 | Importance of Data Structures & Algorithms | 🧱 Foundations | ✅ |
 | 2 | C++ Basics | 🧱 Foundations | ✅ |
-| 3 | Complexity Analysis | 🧱 Foundations | ⬜ |
+| 3 | Complexity Analysis | 🧱 Foundations | ✅ |
 | 4 | Patterns | 🎨 Practice | ✅ |
 | 5 | C++ STL | 🎨 Practice | ⬜ |
 | 6 | Python Data Structures & Utilities | 🎨 Practice | ⬜ |

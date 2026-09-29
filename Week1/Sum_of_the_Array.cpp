@@ -25,9 +25,6 @@ arr[] = {2, 4, 6, 8, 10}
 Output:
 30
 
-Explanation:
-Sum of all elements in the array arr = 2 + 4 + 6 + 8 + 10 = 30
-
 
 Example 2:
 
@@ -37,7 +34,4 @@ arr[] = {-6, 1, 3, 7, 5}
 
 Output:
 10
-
-Explanation:
-Sum of all elements in the array arr = -6 + 1 + 3 + 7 + 5 = 10
 */

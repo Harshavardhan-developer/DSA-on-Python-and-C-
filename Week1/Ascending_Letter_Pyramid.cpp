@@ -3,15 +3,14 @@ using namespace std;
 
 class solution {
 public:
-    void printRightAngledTrianglePattern(int n) {
+    void printAscLetterPyramid(int n) {
         //Write your code here...
-        for (int i = 0; i < n; i++){
-            for (int j = 0; j <= i; j++){
-                cout << "* ";
+        for (int i = n - 1; i >= 0; i--) {
+            for (int j = i; j < n; j++) {
+                cout << char(65 + j) << " ";
             }
             cout << endl;
         }
-        
     }
 };
 
@@ -22,11 +21,11 @@ Input:
 n = 5
 
 Output:
-*
-* *
-* * *
-* * * *
-* * * * *
+E
+D E
+C D E
+B C D E
+A B C D E
 
 
 Example 2:
@@ -35,7 +34,7 @@ Input:
 n = 3
 
 Output:
-*
-* *
-* * *
+C
+B C
+A B C
 */

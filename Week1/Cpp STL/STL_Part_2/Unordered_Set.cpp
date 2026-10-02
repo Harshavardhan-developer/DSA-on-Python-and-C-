@@ -15,23 +15,17 @@ using namespace std;
 
 int main() {
 
-    unordered_set<int> us;
-    // {}
+    unordered_set<int> us; // {}
 
-    us.insert(5);
-    // {5}
+    us.insert(5); // {5}
 
-    us.insert(2);
-    // {5, 2}
+    us.insert(2); // {5, 2}
 
-    us.insert(8);
-    // {5, 2, 8}
+    us.insert(8); // {5, 2, 8}
 
-    us.insert(2);
-    // Duplicate ignored.
+    us.insert(2); // Duplicate ignored.
 
-    us.insert(10);
-    // {5, 2, 8, 10}
+    us.insert(10); // {5, 2, 8, 10}
 
     cout << "Unordered Set: ";
 
@@ -44,18 +38,14 @@ int main() {
     auto it = us.find(5);
 
     if (it != us.end()) {
-        cout << "Found: " << *it << endl;
+        cout << "Found: " << *it << endl; // 5
     }
 
-    cout << "Count of 5: "
-         << us.count(5) << endl;
-    // 1
+    cout << "Count of 5: " << us.count(5) << endl; // 1
 
-    cout << "Count of 7: "
-         << us.count(7) << endl;
-    // 0
+    cout << "Count of 7: " << us.count(7) << endl; // 0
 
-    us.erase(2);
+    us.erase(2); // Removes 2
 
     cout << "After erase(2): ";
 
@@ -65,11 +55,9 @@ int main() {
 
     cout << endl;
 
-    cout << "Size: " << us.size() << endl;
-    // 3
+    cout << "Size: " << us.size() << endl; // 3
 
-    cout << "Empty: " << us.empty() << endl;
-    // 0
+    cout << "Empty: " << us.empty() << endl; // 0
 
     return 0;
 }
@@ -88,3 +76,18 @@ After erase(2): 10 8 5
 Size: 3
 Empty: 0
 */
+
+// insert()
+// emplace()
+
+// find()
+// count()
+
+// erase()
+
+// begin()
+// end()
+
+// size()
+// empty()
+// clear()

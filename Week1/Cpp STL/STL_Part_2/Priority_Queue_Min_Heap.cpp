@@ -15,38 +15,27 @@ using namespace std;
 
 int main() {
 
-    priority_queue<int, vector<int>, greater<int>> pq;
-    // {}
+    priority_queue<int, vector<int>, greater<int>> pq; // {}
 
-    pq.push(10);
-    // {10}
+    pq.push(10); // {10}
 
-    pq.push(50);
-    // {10, 50}
+    pq.push(50); // {10, 50}
 
-    pq.push(30);
-    // {10, 50, 30}
+    pq.push(30); // {10, 50, 30}
 
-    pq.emplace(20);
-    // {10, 20, 30, 50}
+    pq.emplace(20); // {10, 20, 30, 50}
 
-    pq.push(5);
-    // {5, 10, 20, 50, 30}
+    pq.push(5); // {5, 10, 20, 50, 30}
 
-    cout << "Top: " << pq.top() << endl;
-    // Output: 5
+    cout << "Top: " << pq.top() << endl; // 5
 
-    pq.pop();
-    // Removes 5
+    pq.pop(); // Removes 5
 
-    cout << "Top after pop: " << pq.top() << endl;
-    // Output: 10
+    cout << "Top after pop: " << pq.top() << endl; // 10
 
-    cout << "Size: " << pq.size() << endl;
-    // Output: 4
+    cout << "Size: " << pq.size() << endl; // 4
 
-    cout << "Empty: " << pq.empty() << endl;
-    // Output: 0
+    cout << "Empty: " << pq.empty() << endl; // 0
 
     return 0;
 }
@@ -59,3 +48,14 @@ Top after pop: 10
 Size: 4
 Empty: 0
 */
+
+// push()
+// emplace()
+
+// pop()
+// top()
+
+// size()
+// empty()
+
+// swap()

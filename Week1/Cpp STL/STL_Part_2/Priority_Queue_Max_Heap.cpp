@@ -15,38 +15,27 @@ using namespace std;
 
 int main() {
 
-    priority_queue<int> pq;
-    // {}
+    priority_queue<int> pq; // {}
 
-    pq.push(10);
-    // {10}
+    pq.push(10); // {10}
 
-    pq.push(50);
-    // {50, 10}
+    pq.push(50); // {50, 10}
 
-    pq.push(30);
-    // {50, 10, 30}
+    pq.push(30); // {50, 10, 30}
 
-    pq.emplace(20);
-    // {50, 20, 30, 10}
+    pq.emplace(20); // {50, 20, 30, 10}
 
-    pq.push(40);
-    // {50, 40, 30, 10, 20}
+    pq.push(40); // {50, 40, 30, 10, 20}
 
-    cout << "Top: " << pq.top() << endl;
-    // Output: 50
+    cout << "Top: " << pq.top() << endl; // 50
 
-    pq.pop();
-    // Removes 50
+    pq.pop(); // Removes 50
 
-    cout << "Top after pop: " << pq.top() << endl;
-    // Output: 40
+    cout << "Top after pop: " << pq.top() << endl; // 40
 
-    cout << "Size: " << pq.size() << endl;
-    // Output: 4
+    cout << "Size: " << pq.size() << endl; // 4
 
-    cout << "Empty: " << pq.empty() << endl;
-    // Output: 0
+    cout << "Empty: " << pq.empty() << endl; // 0
 
     return 0;
 }
@@ -59,3 +48,14 @@ Top after pop: 40
 Size: 4
 Empty: 0
 */
+
+// push()
+// emplace()
+
+// pop()
+// top()
+
+// size()
+// empty()
+
+// swap()
